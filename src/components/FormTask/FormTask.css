@@ -1,0 +1,56 @@
+fieldset {
+    width: 350px;
+    height: 260px;
+    border: solid 3.5px #52489C;
+    background-color: #B79FAD;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+}
+label { 
+    color: white;
+    font-size: 18px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: white;
+    font-size: 25px;
+}
+.input-text {
+    width: 200px;
+    height: 23px;
+    padding: 3.5px;
+    border: #52489C solid 2px;
+    border-radius: 13px;
+}
+.input-date {
+    width: 130px;
+    height: 23px;
+    padding: 3.5px;
+    border: #52489C solid 2px;
+    border-radius: 11px;
+}
+.form-btn {
+    padding: 5px;
+    border: none;
+    background-color: #9448BC;
+    border-radius: 10px;
+    color: white;
+}
